@@ -31,7 +31,7 @@ function isAuthenticated(req, res, next) {
 }
 
 const users = {
-  aayush: { username: 'aayush', passwordHash: bcrypt.hashSync('1111', 10) },
+  priyanshi: { username: 'priyanshi', passwordHash: bcrypt.hashSync('1111', 10) },
 };
 
 app.set('view engine', 'ejs');
